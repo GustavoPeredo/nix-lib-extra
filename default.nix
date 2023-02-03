@@ -1,6 +1,5 @@
-let
-  lib = import <nixpkgs/lib>;
-in {
+lib:
+{
   # https://discourse.nixos.org/t/nix-function-to-merge-attributes-records-recursively-and-concatenate-arrays/2030
   # Thanks to srghma for this solution
 
